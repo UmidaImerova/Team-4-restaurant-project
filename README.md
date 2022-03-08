@@ -17,3 +17,8 @@ react project with food API
 - Search functionality
 - plus/minus buttons to food component
 - Basket 
+
+
+**Example of page with min req**
+
+https://www.figma.com/file/dlDc6qwOW7NgadKf5vSDDo/reastaurant-project?node-id=0%3A1
