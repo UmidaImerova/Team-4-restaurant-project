@@ -1,10 +1,24 @@
 header{
     width: 100%;
-    height: 100px;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.fixed-input{
+    width: 100%;
+    height: 15vh;
     margin-bottom: 10px;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 20;
+    
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
 
 .logo img{
@@ -20,6 +34,7 @@ header{
     display: flex;
     justify-content: flex-end;
     border-radius: 20px;
+    
 }
 
 .search-input input{
@@ -27,10 +42,13 @@ header{
     outline: none;
     width: 100%;
     border-radius: 20px;
+    background: none;
+    color: white;
 }
 
 .search-input i{
     margin: 10px;
+    color: white;
 }
 
 .basket-info{
